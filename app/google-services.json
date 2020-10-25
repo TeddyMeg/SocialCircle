@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "420791505031",
+    "firebase_url": "https://socialcircle-8d1c0.firebaseio.com",
+    "project_id": "socialcircle-8d1c0",
+    "storage_bucket": "socialcircle-8d1c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420791505031:android:e0254feb668c202ca56822",
+        "android_client_info": {
+          "package_name": "tewodros.com.example.socialcircle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420791505031-hd1nqg08bf5691fm7miudib78v4soapa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBn-Bo4yyVYPXPesx3EorFjBoCbdWCPxfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420791505031-hd1nqg08bf5691fm7miudib78v4soapa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

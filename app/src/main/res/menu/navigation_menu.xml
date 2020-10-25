@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/guest_48"
+        />
+    <item
+        android:id="@+id/nav_friends"
+        android:title="Friends"
+        android:icon="@drawable/group_48"
+        />
+    <item
+        android:id="@+id/nav_find_friends"
+        android:title="Find Friends"
+        android:icon="@drawable/add_user_2_48"
+        />
+    <item
+        android:id="@+id/nav_messages"
+        android:title="Messages"
+        android:icon="@drawable/comment_square_48"
+        />
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/settings_4_48"
+        />
+</menu>

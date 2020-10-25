@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen"
+    tools:context=".SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/social_circle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"></ImageView>
+    <TextView
+        android:id="@+id/social_circle_slogan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stay in touch with your inner circle"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"
+        android:layout_below="@+id/iv"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="version 1.0"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:textStyle="bold"
+        android:layout_below="@+id/social_circle_slogan"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By Tewodros Megabiaw"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        />
+
+</RelativeLayout>

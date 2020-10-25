@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClickPostActivity"
+    android:background="@drawable/upload_post">
+
+    <ImageView
+        android:id="@+id/click_post_image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/post_image" />
+
+    <TextView
+        android:id="@+id/click_post_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Description"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/inputs"
+        android:layout_below="@+id/click_post_image"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        />
+    <Button
+        android:id="@+id/edit_post_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/click_post_description"
+        android:text="Edit Post"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+    <Button
+        android:id="@+id/delete_post_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_post_button"
+        android:text="Delete Post"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:textColor="@android:color/white"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+</RelativeLayout>
